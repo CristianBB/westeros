@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GoT.ttf">
+            <string>GameofThrones</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MemberDetailViewController" customModule="Westeros" customModuleProvider="target">
+            <connections>
+                <outlet property="aliasLabel" destination="jRZ-jH-9gj" id="2SN-cY-Izr"/>
+                <outlet property="houseLabel" destination="ot1-yA-sTE" id="IdF-kB-c7B"/>
+                <outlet property="nameLabel" destination="LCT-TQ-iN4" id="iwW-bs-McT"/>
+                <outlet property="sigilImageView" destination="RUg-YF-oS6" id="Sxe-8H-PNL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wordsLabel" destination="etI-0d-DEd" id="doK-mo-KEN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARYA STARK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LCT-TQ-iN4">
+                    <rect key="frame" x="20" y="60" width="335" height="20"/>
+                    <fontDescription key="fontDescription" name="GameofThrones" family="Game of Thrones" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No tiene" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRZ-jH-9gj">
+                    <rect key="frame" x="20" y="100" width="335" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="House: Stark" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ot1-yA-sTE">
+                    <rect key="frame" x="20" y="134.5" width="335" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RUg-YF-oS6">
+                    <rect key="frame" x="20" y="216" width="335" height="335"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="335" id="DR3-SP-OZK"/>
+                        <constraint firstAttribute="width" constant="335" id="dwC-tb-vfK"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Se acerca el invierno" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etI-0d-DEd">
+                    <rect key="frame" x="20" y="175.5" width="335" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LCT-TQ-iN4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="12F-UJ-qIU"/>
+                <constraint firstItem="ot1-yA-sTE" firstAttribute="top" secondItem="jRZ-jH-9gj" secondAttribute="bottom" constant="20" id="5CU-h8-q0U"/>
+                <constraint firstItem="etI-0d-DEd" firstAttribute="leading" secondItem="ot1-yA-sTE" secondAttribute="leading" id="DR9-l2-JVM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LCT-TQ-iN4" secondAttribute="trailing" constant="20" id="H7e-HH-QHO"/>
+                <constraint firstItem="jRZ-jH-9gj" firstAttribute="top" secondItem="LCT-TQ-iN4" secondAttribute="bottom" constant="20" id="LeE-0h-Nmi"/>
+                <constraint firstItem="ot1-yA-sTE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="NKu-cz-PiS"/>
+                <constraint firstItem="etI-0d-DEd" firstAttribute="trailing" secondItem="ot1-yA-sTE" secondAttribute="trailing" id="NOU-3U-1B1"/>
+                <constraint firstItem="RUg-YF-oS6" firstAttribute="top" secondItem="etI-0d-DEd" secondAttribute="bottom" constant="19.5" id="NPF-Jm-qyv"/>
+                <constraint firstItem="etI-0d-DEd" firstAttribute="top" secondItem="ot1-yA-sTE" secondAttribute="bottom" constant="20" id="VP0-BC-bPi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ot1-yA-sTE" secondAttribute="trailing" constant="20" id="d2X-9y-w3M"/>
+                <constraint firstItem="RUg-YF-oS6" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="dvc-Wq-m1Z"/>
+                <constraint firstItem="LCT-TQ-iN4" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="oAH-x9-WEX"/>
+                <constraint firstItem="jRZ-jH-9gj" firstAttribute="leading" secondItem="LCT-TQ-iN4" secondAttribute="leading" id="tyq-FM-HCV"/>
+                <constraint firstItem="jRZ-jH-9gj" firstAttribute="trailing" secondItem="LCT-TQ-iN4" secondAttribute="trailing" id="yNk-XI-YoR"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,227 @@
+[
+ {
+ "id":86,
+ "name":"Brandon",
+ "alias": null,
+ "house":{
+ "id":2,
+ "name":"Stark",
+ "words":"Se acerca el invierno",
+ "url" : "https://awoiaf.westeros.org/index.php/House_Stark",
+ "sigil" : {
+ "description" : "A running grey direwolf, on an ice-white field",
+ "image" : "codeIsComing.png"
+ }
+ }
+ },
+ {
+ "id":91,
+ "name":"Edward",
+ "alias": null,
+ "house":{
+ "id":2,
+ "name":"Stark",
+ "words":"Se acerca el invierno",
+ "url" : "https://awoiaf.westeros.org/index.php/House_Stark",
+ "sigil" : {
+ "description" : "A running grey direwolf, on an ice-white field",
+ "image" : "codeIsComing.png"
+ }
+ }
+ },
+ {
+ "id":24,
+ "name":"Sandor Clegane",
+ "alias": "El Perro",
+ "house":{
+ "id":6,
+ "name":"Lannister",
+ "words":"Oye mi rugido",
+ "url" : "https://awoiaf.westeros.org/index.php/House_Lannister",
+ "sigil" : {
+ "description" : "A gold lion, on a crimson field",
+ "image" : "lannister.jpg"
+ }
+ }
+ },
+ {
+ "id":73,
+ "name":"Cersei",
+ "alias": "Luz del Occidente | La que se zumbetea a su hermano",
+ "house":{
+ "id":6,
+ "name":"Lannister",
+ "words":"Oye mi rugido",
+ "url" : "https://awoiaf.westeros.org/index.php/House_Lannister",
+ "sigil" : {
+ "description" : "A gold lion, on a crimson field",
+ "image" : "lannister.jpg"
+ }
+ }
+ },
+ {
+ "id":73,
+ "name":"Jaime",
+ "alias": "El Matarreyes | El que se zumbetea a su hermana",
+ "house":{
+ "id":6,
+ "name":"Lannister",
+ "words":"Oye mi rugido",
+ "url" : "https://awoiaf.westeros.org/index.php/House_Lannister",
+ "sigil" : {
+ "description" : "A gold lion, on a crimson field",
+ "image" : "lannister.jpg"
+ }
+ }
+ },
+ {
+ "id":73,
+ "name":"Tyrion",
+ "alias": "El Gnomo",
+ "house":{
+ "id":6,
+ "name":"Lannister",
+ "words":"Oye mi rugido",
+ "url" : "https://awoiaf.westeros.org/index.php/House_Lannister",
+ "sigil" : {
+ "description" : "A gold lion, on a crimson field",
+ "image" : "lannister.jpg"
+ }
+ }
+ },
+ {
+ "id":87,
+ "name":"Jon Snow",
+ "alias": null,
+ "house":{
+ "id":2,
+ "name":"Stark",
+ "words":"Se acerca el invierno",
+ "url" : "https://awoiaf.westeros.org/index.php/House_Stark",
+ "sigil" : {
+ "description" : "A running grey direwolf, on an ice-white field",
+ "image" : "codeIsComing.png"
+ }
+ }
+ },
+ {
+ "id":80,
+ "name":"Loras",
+ "alias": "El Caballero de las Flores",
+ "house":{
+ "id":8,
+ "name":"Tyrell",
+ "words":"Crecer Fuerte",
+ "url" : "https://awoiaf.westeros.org/index.php/House_Tyrell",
+ "sigil" : {
+ "description" : "A golden rose, on a green field",
+ "image" : "tyrellHouse"
+ }
+ }
+ },
+ {
+ "id":90,
+ "name":"Arya",
+ "alias": null,
+ "house":{
+ "id":2,
+ "name":"Stark",
+ "words":"Se acerca el invierno",
+ "url" : "https://awoiaf.westeros.org/index.php/House_Stark",
+ "sigil" : {
+ "description" : "A running grey direwolf, on an ice-white field",
+ "image" : "codeIsComing.png"
+ }
+ }
+ },
+ {
+ "id":81,
+ "name":"Mace",
+ "alias": "Lord Patán",
+ "house":{
+ "id":8,
+ "name":"Tyrell",
+ "words":"Crecer Fuerte",
+ "url" : "https://awoiaf.westeros.org/index.php/House_Tyrell",
+ "sigil" : {
+ "description" : "A golden rose, on a green field",
+ "image" : "tyrellHouse.png"
+ }
+ }
+ },
+ {
+ "id":67,
+ "name":"Margery",
+ "alias": null,
+ "house":{
+ "id":8,
+ "name":"Tyrell",
+ "words":"Crecer Fuerte",
+ "url" : "https://awoiaf.westeros.org/index.php/House_Tyrell",
+ "sigil" : {
+ "description" : "A golden rose, on a green field",
+ "image" : "tyrellHouse.png"
+ }
+ }
+ },
+ {
+ "id":70,
+ "name":"Rob",
+ "alias": "El Joven Lobo",
+ "house":{
+ "id":2,
+ "name":"Stark",
+ "words":"Se acerca el invierno",
+ "url" : "https://awoiaf.westeros.org/index.php/House_Stark",
+ "sigil" : {
+ "description" : "A running grey direwolf, on an ice-white field",
+ "image" : "codeIsComing.png"
+ }
+ }
+ },
+ {
+ "id":21,
+ "name":"Sansa",
+ "alias": null,
+ "house":{
+ "id":2,
+ "name":"Stark",
+ "words":"Se acerca el invierno",
+ "url" : "https://awoiaf.westeros.org/index.php/House_Stark",
+ "sigil" : {
+ "description" : "A running grey direwolf, on an ice-white field",
+ "image" : "codeIsComing.png"
+ }
+ }
+ },
+ {
+ "id":50,
+ "name":"Daenerys",
+ "alias": "Madre de Dragones",
+ "house":{
+ "id":7,
+ "name":"Targaryen",
+ "words":"Fuego y Sangre",
+ "url" : "https://awoiaf.westeros.org/index.php/House_Targaryen",
+ "sigil" : {
+ "description" : "Sable, a dragon thrice-headed gules",
+ "image" : "targaryenSmall.jpg"
+ }
+ }
+ },
+ {
+ "id":51,
+ "name":"Viserys",
+ "alias": null,
+ "house":{
+ "id":7,
+ "name":"Targaryen",
+ "words":"Fuego y Sangre",
+ "url" : "https://awoiaf.westeros.org/index.php/House_Targaryen",
+ "sigil" : {
+ "description" : "Sable, a dragon thrice-headed gules",
+ "image" : "targaryenSmall.jpg"
+ }
+ }
+ }
+ ]
